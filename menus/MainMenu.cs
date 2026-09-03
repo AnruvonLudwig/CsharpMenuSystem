@@ -24,15 +24,19 @@ namespace CsharpMenuSystem.menus{
 
         protected override void ResolveOption(int option)
         {
+            string[] optionNames = Enum.GetNames(typeof (MainMenuOptions));
             switch (option)
             {
                 case (int)MainMenuOptions.FirstMenu:
+                    Navigator.Push(new OtherMenu(optionNames[((int)MainMenuOptions.FirstMenu)- 1]));
                 break;
 
                 case (int)MainMenuOptions.SecondMenu:
+                    Navigator.Push(new OtherMenu(optionNames[((int)MainMenuOptions.SecondMenu)-1]));
                     break;
 
                 case (int)MainMenuOptions.ThirdMenu:
+                    Navigator.Push(new OtherMenu(optionNames[((int)MainMenuOptions.ThirdMenu)-1]));
                 break;
 
                 case (int)MainMenuOptions.Exit:
