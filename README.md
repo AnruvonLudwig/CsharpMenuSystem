@@ -1,7 +1,3 @@
-# TemplateCSProject
-A template C# dotnet 4 project preconfigured use mono to run on linux from vscode.
+# CsharpMenuSystem
 
-It has a script to rename the project `p-rename`!!!
-
->[!caution]
-> The script touches ALL files inside the folder it is ran in. It does not validate input beyond if 2 args is given! 
+A C# menu system using a IView interface and Static Navigator class.

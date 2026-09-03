@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{86EC38FB-F8E1-46C0-9EA2-E7C1CC4FEFD2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TemplateCSProject</RootNamespace>
-    <AssemblyName>TemplateCSProject</AssemblyName>
+    <RootNamespace>CsharpMenuSystem</RootNamespace>
+    <AssemblyName>CsharpMenuSystem</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
+    <Compile Include="menus/*.cs" />
+    <Compile Include="interfaces/*.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,7 +1,0 @@
-/home/valger_ice/Projects/CSharp/TemplateCSProject/bin/Debug/ConsoleApp1.exe.config
-/home/valger_ice/Projects/CSharp/TemplateCSProject/bin/Debug/ConsoleApp1.exe
-/home/valger_ice/Projects/CSharp/TemplateCSProject/bin/Debug/ConsoleApp1.pdb
-/home/valger_ice/Projects/CSharp/TemplateCSProject/obj/Debug/ConsoleApp1.csproj.AssemblyReference.cache
-/home/valger_ice/Projects/CSharp/TemplateCSProject/obj/Debug/ConsoleApp1.csproj.CoreCompileInputs.cache
-/home/valger_ice/Projects/CSharp/TemplateCSProject/obj/Debug/ConsoleApp1.exe
-/home/valger_ice/Projects/CSharp/TemplateCSProject/obj/Debug/ConsoleApp1.pdb
