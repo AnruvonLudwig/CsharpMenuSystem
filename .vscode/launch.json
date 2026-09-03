@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Mono debug",
+            "type": "mono",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/Debug/${workspaceFolderBasename}.exe",
+            "console": "integratedTerminal",
+            "preLaunchTask": "Legacy C# Build",
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+/home/valger_ice/Projects/CSharp/TemplateCSProject/obj/Debug/TemplateCSProject.csproj.AssemblyReference.cache
+/home/valger_ice/Projects/CSharp/TemplateCSProject/obj/Debug/TemplateCSProject.csproj.CoreCompileInputs.cache
+/home/valger_ice/Projects/CSharp/TemplateCSProject/bin/Debug/TemplateCSProject.exe.config
+/home/valger_ice/Projects/CSharp/TemplateCSProject/bin/Debug/TemplateCSProject.exe
+/home/valger_ice/Projects/CSharp/TemplateCSProject/bin/Debug/TemplateCSProject.pdb
+/home/valger_ice/Projects/CSharp/TemplateCSProject/obj/Debug/TemplateCSProject.exe
+/home/valger_ice/Projects/CSharp/TemplateCSProject/obj/Debug/TemplateCSProject.pdb
+/home/valger_ice/Projects/CSharp/Tempelar/bin/Debug/TemplateCSProject.exe.config
+/home/valger_ice/Projects/CSharp/Tempelar/bin/Debug/TemplateCSProject.exe
+/home/valger_ice/Projects/CSharp/Tempelar/bin/Debug/TemplateCSProject.pdb
+/home/valger_ice/Projects/CSharp/Tempelar/obj/Debug/TemplateCSProject.csproj.AssemblyReference.cache
+/home/valger_ice/Projects/CSharp/Tempelar/obj/Debug/TemplateCSProject.csproj.CoreCompileInputs.cache
+/home/valger_ice/Projects/CSharp/Tempelar/obj/Debug/TemplateCSProject.exe
+/home/valger_ice/Projects/CSharp/Tempelar/obj/Debug/TemplateCSProject.pdb

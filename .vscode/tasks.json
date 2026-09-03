@@ -1,0 +1,19 @@
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Legacy C# Build",
+            "command": "msbuild",
+            "type": "shell",
+            "args": [
+                "${workspaceFolder}/*.csproj",
+                "/p:Configuration=Debug",
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

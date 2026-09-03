@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# Exit if no argument is provided
+if [ -z "$1" ]; then
+    echo "Error: Please provide old project name."
+    echo "Usage: $0 OldProjectName NewProjectName"
+    exit 1
+fi
+if [ -z "$2" ]; then
+    echo "Error: Please provide a new project name."
+    echo "Usage: $0 OldProjectName NewProjectName"
+    exit 1
+fi
+
+NEW_NAME="$2"
+OLD_NAME="$1" 
+
+echo "Replacing text inside files..."
+# Excludes the script itself 
+find . -type f ! -name "$(basename "$0")" -exec sed -i "s/$OLD_NAME/$NEW_NAME/g" {} +
+
+echo "Renaming files and directories..."
+# -depth ensures subdirectories are renamed before their parent folders
+find . -depth -name "*$OLD_NAME*" | while read -r item; do
+    dir=$(dirname "$item")
+    base=$(basename "$item")
+    new_base=$(echo "$base" | sed "s/$OLD_NAME/$NEW_NAME/g")
+    
+    mv "$item" "$dir/$new_base"
+done
+
+echo "Deleting old Debug bin..."
+
+rm bin/Debug/*
+rm obj/Debug/*
+
+echo "Done! Project updated to: $NEW_NAME"
+
